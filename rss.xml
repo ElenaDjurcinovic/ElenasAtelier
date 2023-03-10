@@ -2,16 +2,16 @@
 <rss version="2.0">
 <channel>
   <title>Elena's Atelier - News</title>
-  <link></link>
+  <link>https://elenadjurcinovic.github.io/ElenasAtelier/</link>
   <description>Elena's Atelier - latest news!</description>
   <item>
     <title>Elena's Atelier - Shop</title>
-    <link></link>
-    <description>We added more dresses to our shop, check it out!</description>
+    <link>https://elenadjurcinovic.github.io/ElenasAtelier/dress.html</link>
+    <description>We added more dresses to our shop, check them out!</description>
   </item>
   <item>
     <title>Elena's Atelier - Gallery</title>
-    <link></link>
+    <link>https://elenadjurcinovic.github.io/ElenasAtelier/gallery.html</link>
     <description>More pictures added to the gallery, check them out!</description>
   </item>
 </channel>
