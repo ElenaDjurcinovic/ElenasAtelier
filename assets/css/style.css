@@ -156,26 +156,26 @@ header{
 }
 #header-text{
     /* border: 1px solid white; */
-    height: 90%;
-    width: 70%;
+    /* height: 90%; */
+    width: 40%;
     position: absolute;
     z-index: 99;
 }
 #header-text.txt-title{
     flex-direction: column;
-    /* text-transform: none; */
+    /* justify-content: center;
+    align-items: center; */
     letter-spacing: normal;
+    /* text-transform: none; */
     /* font-size: 16pt; */
-}
-#header-text.txt-title h1:first-child{
-    margin-top: 10px;
 }
 #header-text.txt-title h1{
-    font-weight: bold;
-    text-align: left;
     font-size: 45pt;
-    /* font-size: 18pt; */
-    /* font-size: 16pt; */
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+    /* font-weight: bold; */
+
 }
 #header-text.txt-title p{
     margin-top: auto;
@@ -206,8 +206,8 @@ header{
 }
 .top-seller-img{
     position: relative;
-    width: 420px;
-    height: 500px;
+    width: 20vw;
+    height: 50vh;
     background-size: cover;
     border-radius: 10px;
     transform: scale(1.02, 1.02);
@@ -274,6 +274,9 @@ header{
 }
 #quote-2{
     background-image: url('../img/img-quote-2.jpg');
+}
+.img-quote h2{
+    font-size: 20pt;
 }
 .img-quote h2, .img-quote p{
     position: relative;
