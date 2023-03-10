@@ -19,7 +19,7 @@
                 <div class="container d-flex">
                     <!-- Logo -->
                     <a id="logo-img-link" href="index.html">
-                        <img id="logo-img" src="assets/img/logo.svg" alt="Logo.svg"/>
+                        <img id="logo-img" src="assets/img/logo-4x.png" alt="Logo.svg"/>
                     </a>
                     <!-- Navigacija -->
                     <ul id="lista" class="d-flex">
@@ -33,10 +33,12 @@
             </nav>
         </header>
         <main>
-            <div id="header-image">
-                <div id="header-text">
-                    <h1>Welcome to Elena's Atelier!</h1>
-                    <p>Hello there!</p>
+            <div id="header-image" class="d-flex">
+                <div id="header-text" class="txt-title txt-center txt-white d-flex">
+                    <h1>Welcome</h1>
+                    <h1>to</h1>
+                    <h1>Elena's Atelier</h1>
+                    <p>&#8211; Welcome to our world, kingdom, fairy tale, story where you will feel like a real princess. &#8211;</p>
                 </div>
                 <div class="dark-overlay"></div>
             </div>
@@ -115,10 +117,10 @@
                     <p>&#8211;Contact us&#8211;</p>
                 </div>
                 <form action="action.php" method="post" class="d-flex drop-shadow bg-white">
-                    <input type="text" name="inputFName" id="inputFName" placeholder="First name" />
-                    <input type="text" name="inputLName" id="inputLName" placeholder="Last name" />
-                    <input type="email" name="inputEmail" id="inputEmail" placeholder="example@email.com" />
-                    <input type="tel" name="inputPhone" id="inputPhone" placeholder="+38167892034" />
+                    <input type="text" name="inputFName" id="inputFName" placeholder="First name" required/>
+                    <input type="text" name="inputLName" id="inputLName" placeholder="Last name"  required/>
+                    <input type="email" name="inputEmail" id="inputEmail" placeholder="example@email.com" required/>
+                    <input type="tel" name="inputPhone" id="inputPhone" placeholder="+38167892034" required/>
                     <textarea name="inputTextField" id="inputTextField" cols="20" rows="8" placeholder="Type message..."></textarea>
                     <div class="d-flex">
                         <input class="txt-16pt txt-white" type="submit" value="Send"/>
