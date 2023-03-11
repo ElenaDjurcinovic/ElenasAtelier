@@ -13,6 +13,7 @@
         <title>Elena's Atelier - Home</title>
     </head>
     <body>
+        <!-- Sajt je prilagodjen najbolje na full hd rezoluciji: 1920x1080 -->
         <header>
             <!-- Navigacija -->
             <nav id="nav-menu" class="bg-dark">
@@ -33,18 +34,21 @@
             </nav>
         </header>
         <main>
+            <!-- Header slika sa tekstom -->
             <div id="header-image" class="d-flex position-relative">
                 <div id="header-text" class="txt-title txt-center txt-white d-flex position-absolute">
                     <h1>Welcome to our world, kingdom, fairy tale, story, where you will feel like a <span class="txt-pink-2">real princess.</span></h1>
                 </div>
                 <div class="dark-overlay"></div>
             </div>
+            <!-- Najprodavaniji -->
             <div id="top-sellers" class="bg-white">
                 <div class="container">
                     <div class="txt-title txt-center mb-50">
                         <h1>&#8211;top selling dresses&#8211;</h1>
                         <p>&#8211;spring collection&#8211;</p>
                     </div>
+                    <!-- Slike i linkovi ka haljinama -->
                     <div id="top-seller-wrapper" class="d-flex position-relative">
                         <div id="pr-1" class="top-seller-img border-10 drop-shadow position-relative">
                             <a href="dress.html#stella-dress" class="d-flex top-seller-text position-relative txt-white">Stella</a>
@@ -61,20 +65,23 @@
                     </div>
                 </div>
             </div>
+            <!-- Quote 1 -->
             <div id="quote-1" class="img-quote position-relative d-flex drop-shadow txt-white">
                 <h2>&quot; The dress doesn't own you, you own the dress &quot;</h2>
                 <p>&#8211;Magdalena Frackowiak&#8211;</p>
                 <div class="dark-overlay position-absolute"></div>
             </div> 
+            <!-- Limitirana serija -->
             <div id="dress-limited-edition" class="bg-white">
                 <div class="container">
                     <div class="txt-title txt-center mb-50"> 
                         <h1>&#8211;limited series&#8211;</h1>
                         <p>&#8211;By Elena&#8211;</p>
                     </div>
-                    <div id="dress-limited-edition-wrapper" class="d-flex border-10 drop-shadow bg-white">
+                    <!-- Slike i tekst -->
+                    <div id="dress-limited-edition-wrapper" class="d-flex border-10 pad-10 drop-shadow bg-white">
                         <div id="dress-limited-edition-left" class="d-flex">
-                            <div id="dress-limited-img-top" class="d-flex">
+                            <div id="dress-limited-img-top" class="d-flex mb-10">
                                 <img class="border-10" src="assets/img/pocetna-haljina-1.jpg" alt="pocetna-haljina-1"/>
                                 <img class="border-10" src="assets/img/pocetna-haljina-2.jpg" alt="pocetna-haljina-1"/>   
                             </div>
@@ -103,22 +110,24 @@
                     </div>
                 </div>
             </div>
+            <!-- Quote 2 -->
             <div id="quote-2" class="img-quote position-relative d-flex drop-shadow txt-white">
                 <h2>&quot; Happiness is, wearing a pretty dress. &quot;</h2>
                 <p>&#8211;Magdalena Frackowiak&#8211;</p>
                 <div class="dark-overlay position-absolute"></div>
             </div>
+            <!-- Kontakt -->
             <div id="form" class="bg-pink-2">
                 <div id="form-title" class="txt-center txt-title txt-white mb-50">
                     <h1>&#8211;Ask about dresses&#8211;</h1>
                     <p>&#8211;Contact us&#8211;</p>
                 </div>
-                <form action="action.php" method="post" class="d-flex drop-shadow border-10 bg-white">
-                    <input class="border-10" type="text" name="inputFName" id="inputFName" placeholder="First name" required/>
-                    <input class="border-10" type="text" name="inputLName" id="inputLName" placeholder="Last name"  required/>
-                    <input class="border-10" type="email" name="inputEmail" id="inputEmail" placeholder="example@email.com" required/>
-                    <input class="border-10" type="tel" name="inputPhone" id="inputPhone" placeholder="+38167892034" required/>
-                    <textarea class="border-10" name="inputTextField" id="inputTextField" cols="20" rows="8" placeholder="Type message..."></textarea>
+                <form action="action.php" method="post" class="d-flex drop-shadow border-10 pad-10 bg-white">
+                    <input class="border-10 pad-10 mb-10" type="text" name="inputFName" id="inputFName" placeholder="First name" required/>
+                    <input class="border-10 pad-10 mb-10" type="text" name="inputLName" id="inputLName" placeholder="Last name"  required/>
+                    <input class="border-10 pad-10 mb-10" type="email" name="inputEmail" id="inputEmail" placeholder="example@email.com" required/>
+                    <input class="border-10 pad-10 mb-10" type="tel" name="inputPhone" id="inputPhone" placeholder="+38167892034" required/>
+                    <textarea class="border-10 pad-10 mb-10" name="inputTextField" id="inputTextField" cols="20" rows="8" placeholder="Type message..."></textarea>
                     <div class="d-flex">
                         <input class="txt-16pt txt-white bg-pink-2" type="submit" value="Send"/>
                         <input class="txt-16pt txt-white bg-pink-2" type="reset" value="Reset"/>
@@ -128,31 +137,32 @@
         </main>
         <footer class="drop-shadow bg-dark">
             <div class="container d-flex">
-                <div id="footer-left">
+                <div id="footer-left" class="txt-white">
                     <!-- Kontakt -->
-                    <h2 class="txt-white">Contact</h2>
-                    <p class="txt-white"><i class="fa-solid fa-phone"></i> +38167892034</p>
-                    <p class="txt-white"><i class="fa-solid fa-envelope"></i> elena.atelje.info@gmail.com</p>
-                    <p class="txt-white"><i class="fa-solid fa-location-dot"></i> Belgrade, Kneza Mihaila 54</p>
-                    <p class="txt-white"><i class="fa-solid fa-clock"></i> Every weekday from 09:00 to 17:00</p>
+                    <h2 class="mb-10">Contact</h2>
+                    <p class="mb-10"><i class="fa-solid fa-phone"></i> +38167892034</p>
+                    <p class="mb-10"><i class="fa-solid fa-envelope"></i> elena.atelje.info@gmail.com</p>
+                    <p class="mb-10"><i class="fa-solid fa-location-dot"></i> Belgrade, Kneza Mihaila 54</p>
+                    <p class="mb-10"><i class="fa-solid fa-clock"></i> Every weekday from 09:00 to 17:00</p>
                 </div>
                 <div id="footer-center" class="txt-center txt-white">
                     <!-- Info o kompaniji -->
-                    <h2>Elena's Atelier</h2>
+                    <h2 class="mb-10">Elena's Atelier</h2>
                     <p>Elena's Atelier is a dress company that specializes in creating high-end custom-made dresses. Our atelier offers a wide range of dress styles, from flowing ball gowns to sleek and modern cocktail dresses.</p>
                 </div>
-                <div id="footer-right" class="txt-right">
+                <div id="footer-right" class="txt-right txt-white">
                     <!-- Socijalni linkovi -->
-                    <h2 class="txt-white">Socials</h2>
+                    <h2 class="mb-10">Socials</h2>
                     <ul>
-                        <li><a class="txt-white" href="https://www.instagram.com/" target="_blank">Instagram<i class="fa-brands txt-white fa-instagram"></i></a></li>
-                        <li><a class="txt-white" href="https://www.facebook.com/" target="_blank">Facebook<i class="fa-brands txt-white fa-facebook"></i></a></li>
-                        <li><a class="txt-white" href="https://twitter.com/home/" target="_blank">Twitter<i class="fa-brands txt-white fa-twitter"></i></a></li>
-                        <li><a class="txt-white" href="https://www.tiktok.com/" target="_blank">TikTok<i class="fa-brands txt-white fa-tiktok"></i></a></li>
+                        <li class="mb-10"><a class="txt-white" href="https://www.instagram.com/" target="_blank">Instagram<i class="fa-brands txt-white fa-instagram"></i></a></li>
+                        <li class="mb-10"><a class="txt-white" href="https://www.facebook.com/" target="_blank">Facebook<i class="fa-brands txt-white fa-facebook"></i></a></li>
+                        <li class="mb-10"><a class="txt-white" href="https://twitter.com/home/" target="_blank">Twitter<i class="fa-brands txt-white fa-twitter"></i></a></li>
+                        <li class="mb-10"><a class="txt-white" href="https://www.tiktok.com/" target="_blank">TikTok<i class="fa-brands txt-white fa-tiktok"></i></a></li>
                     </ul>
                 </div>
             </div>
             <div id="copyright" class="txt-white txt-16pt d-flex">
+                <!-- Student -->
                 <h4>Elena Đurčinović 94&sol;22 &copy; Copyright</h4>
                 <a href="rss.xml"><i class="txt-white fa-solid fa-square-rss"></i></a>
                 <a href="sitemap.xml"><i class="txt-white fa-solid fa-sitemap"></i></a>
